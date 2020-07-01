@@ -1,4 +1,4 @@
-# Analysis of Sensors Read Data for Airquality 
+# Analysis of Sensors Data for Airquality
 The `SL132001-data (11).csv` file represents the data for the week of `26/05/2020`, and the `SL132001-data (12).csv` file represents the data for the week of `02/06/2020`. The data is gathered every single minute. Let's call this original dataset, minutely dataset.  
 
 The number of observations in the data is **19,744**. It contains sensor readings for each single minute during the these two weeks. The features of the data are as follow:
