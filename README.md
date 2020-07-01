@@ -1,5 +1,5 @@
 # Analysis of Sensors Read Data for Airquality 
-The `SL132001-data (11).csv` file represents the data for the week of `26/05/2020`, and the `SL132001-data (12).csv` file represents the data for the week of `02/06/2020`. The data is gathered every single minute. I concatenated these two datasets.  
+The `SL132001-data (11).csv` file represents the data for the week of `26/05/2020`, and the `SL132001-data (12).csv` file represents the data for the week of `02/06/2020`. The data is gathered every single minute. Let's call this original dataset, minutely dataset.  
 
 The number of observations in the data is **19,744**. It contains sensor readings for each single minute during the these two weeks. The features of the data are as follow:
 - `Ozone - Low Conc.` (opm)
@@ -14,14 +14,13 @@ The number of observations in the data is **19,744**. It contains sensor reading
 - `Temperature (External)` (C)
 - `Humidity (External)` (%)
 
-The original data is gathered the information about the environment every single minute. Let's call this original dataset, minutely dataset. 
-I resampled the hourly and daily data from the minutely dataset and analyzed them as well.
+I resampled the hourly and daily data from the minutely dataset and analyzed them as well. The datasets can be found in the Data folder.
 
 In this project, I have addressed the following main problems: 
 1. An Exploratory Analysis of the Data
 2. Anomaly Detection
 
-The datasets can be found in the Data folder. Please find the following Notebooks:
+Please find the following Notebooks:
 
 1. Gettin and Cleaning Data.ipynb
 2. Exploratory Data Analysis.ipynb
